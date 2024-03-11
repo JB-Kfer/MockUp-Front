@@ -15,7 +15,7 @@ function fetchMessages() {
 }
 
 // Fetch new messages every 5 seconds
-//setInterval(fetchMessages, 5000);
+setInterval(fetchMessages, 5000);
 
 // Initial fetch
 fetchMessages();
