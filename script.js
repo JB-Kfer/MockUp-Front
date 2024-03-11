@@ -4,7 +4,7 @@ let local = sessionStorage.getItem('username');
 
 function fetchMessages() {
   console.log("fetch")
-  fetch('https://c16bb5fa-b175-46a5-80ec-6478ce04843d-00-1d31kx18hbryc.worf.replit.dev/msg/getAll')
+  fetch('https://mockup-lmf2.onrender.com/msg/getAll')
     .then(function(response) {
       return response.json();
     })
@@ -38,7 +38,7 @@ async function sendMessage() {
   textArea.value = "";
   // Envoie le message au serveur
   try {
-    const response = await fetch("https://c16bb5fa-b175-46a5-80ec-6478ce04843d-00-1d31kx18hbryc.worf.replit.dev/msg/post", {
+    const response = await fetch("https://mockup-lmf2.onrender.com/msg/post", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ content: textToSend, user: local })
