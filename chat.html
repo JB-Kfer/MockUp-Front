@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
-  <title>Chat App</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-  <title>WHATISAPP - Chat</title>
+    <title>WHATISAPP - Chat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_chat.css">
+    <script src="script_chat.js"></script>
 </head>
 
 <body>
-  <div class="top-bar">
-    <h1 id="chat-name-display"></h1>
-  </div>
+    <div class="top-bar">
+        <h1 id="chat-name-display"></h1>
+    </div>
 
-  <ul class="messages">
-    <ul id="messageList" class="messages"></ul>
-  </ul>
+    <ul class="messages">
+        <ul id="messageList" class="messages"></ul>
+    </ul>
 
-  <div class="text-area">
-    <textarea required placeholder="Type your message here..."></textarea>
-    <button id="send-button" onclick=sendMessage()>Send</button>
-  </div>
-
+    <div class="text-area">
+        <textarea required placeholder="Tapez votre message ici..."></textarea>
+        <button id="send-button" onclick="sendMessage()">Envoyer</button>
+    </div>
 </body>
 
 </html>

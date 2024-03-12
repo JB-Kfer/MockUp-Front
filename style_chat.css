@@ -42,7 +42,7 @@ body {
   clear: left;
   padding: 10px;
   position: relative;
-  left: -10px; /* Increased the left property to move the username span more to the left */
+  left: -10px;
   top: 0;
 }
 
@@ -60,7 +60,7 @@ body {
   clear: right;
   padding: 10px;
   position: relative;
-  right: -10px; /* Increased the left property to move the username span more to the left */
+  right: -10px;
   top: 0;
 }
 
