@@ -1,88 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .top-bar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .messages {
-    list-style-type: none;
-    padding: 10px;
-    height: 300px;
-    overflow-y: scroll;
-  }
-  
-  .message-container {
-    margin-bottom: 10px;
-  }
-  
-  .message {
-    display: block;
-    padding: 5px 10px;
-    border-radius: 10px;
-  }
-  
-  .message-left {
-    float: left;
-    clear: left;
-    padding: 10px;
-    background-color: #ddd;
-    border-radius: 10px 10px 10px 10px;
-  }
-  
-  .message-left-more {
-    float: left;
-    clear: left;
-    padding: 10px;
-    position: relative;
-    left: -10px; /* Increased the left property to move the username span more to the left */
-    top: 0;
-  }
-  
-  .message-right {
-    float: right;
-    clear: right;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 10px 10px 10px 10px;
-  }
-  
-  .message-right-more {
-    float: right;
-    clear: right;
-    padding: 10px;
-    position: relative;
-    right: -10px; /* Increased the left property to move the username span more to the left */
-    top: 0;
-  }
-  
-  .message-separator {
-    height: 10px;
-  }
-  
-  .text-area {
-    padding: 10px;
-    border-top: 1px solid #333;
-    display: flex;
-  }
-  
-  .text-area textarea {
-    flex-grow: 1;
-    resize: none;
-  }
-  
-  .send-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages {
+  list-style-type: none;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.message-container {
+  margin-bottom: 10px;
+}
+
+.message {
+  display: block;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.message-left {
+  float: left;
+  clear: left;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.message-left-more {
+  float: left;
+  clear: left;
+  padding: 10px;
+  position: relative;
+  left: -10px; /* Increased the left property to move the username span more to the left */
+  top: 0;
+}
+
+.message-right {
+  float: right;
+  clear: right;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.message-right-more {
+  float: right;
+  clear: right;
+  padding: 10px;
+  position: relative;
+  right: -10px; /* Increased the left property to move the username span more to the left */
+  top: 0;
+}
+
+.message-separator {
+  height: 10px;
+}
+
+.text-area {
+  padding: 10px;
+  border-top: 1px solid #333;
+  display: flex;
+}
+
+.text-area textarea {
+  flex-grow: 1;
+  resize: none;
+}
+
+.send-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

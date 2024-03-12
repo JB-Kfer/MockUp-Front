@@ -10,18 +10,7 @@
 
 <body>
   <div class="top-bar">
-    <h1 id="username-display"></h1>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const username = sessionStorage.getItem('username');
-        console.log('Username from session storage:', username);
-
-        // Display the username in the HTML
-        document.getElementById('username-display').innerHTML = `Welcome to the chat ${username} !`;
-
-        // Use the username variable as needed in your chat application
-      });
-    </script>
+    <h1 id="chat-name-display"></h1>
   </div>
 
   <ul class="messages">
